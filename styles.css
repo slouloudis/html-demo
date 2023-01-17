@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+/* Resets */
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+    font-family: 'Mulish', sans-serif;
+}
+
+.--upper{
+    text-transform: uppercase;
+}
+
+.navBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.nav-Menu ul{
+    display: flex;
+
+}
+
+.nav-Menu ul li{
+    position: relative;
+    margin-right: 30px;
+    margin-top: 20px;
+    list-style: none;
+}
+
+/* Some colours*/
+
+body{
+    font-family: 'Mulish', sans-serif;
+    color: white;
+}
+
+section{
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+
+}
+.A{
+    background-image: url(imgs/plant2.jpg)
+}
